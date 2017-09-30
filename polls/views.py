@@ -8,6 +8,6 @@ from polls.models import Customer
 
 # Create your views here.
 def index(request):
-    cu = Customer(name="YAsh")
+    cu = Customer(name="sdfas")
     cu.save()
     return HttpResponse("Hello, world. You're at the polls index.")
