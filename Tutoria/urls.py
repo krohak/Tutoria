@@ -16,6 +16,8 @@ Including another URLconf
 from django.conf.urls import include,url
 from django.contrib import admin
 
+# homeUrl = "localhost:8000/"
+
 urlpatterns = [
 	url(r'^polls/', include('polls.urls')),
     url(r'^admin/', admin.site.urls),
